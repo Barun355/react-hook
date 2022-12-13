@@ -1,6 +1,7 @@
 import './App.css';
-import ClassCounterOne from './components/ClassCounterOne';
-import HookEffectCounter from './components/HookEffectCounter';
+// import ClassCounterOne from './components/ClassCounterOne';
+import HookUseEffectCounter from './components/HookUseEffectCounter';
+// import HookEffectCounter from './components/HookEffectCounter';
 // import HookCounterFour from './components/HookCounterFour';
 // import HookCounterThree from './components/HookCounterThree';
 // import ClassComponent from './components/ClassComponent';
@@ -15,8 +16,9 @@ function App() {
       {/* <HookCounterTwo /> */}
       {/* <HookCounterThree /> */}
       {/* <HookCounterFour /> */}
-      <ClassCounterOne />
-      <HookEffectCounter />
+      {/* <ClassCounterOne /> */}
+      {/* <HookEffectCounter /> */}
+      <HookUseEffectCounter />
     </div>
   );
 }
