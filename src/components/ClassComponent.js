@@ -10,12 +10,19 @@ class ClassComponent extends Component {
       }
     }
     
+    // incrementCounter = () => {
+    //     this.setState({
+    //         count: this.state.count+1
+    //     })
+    // }
+
     incrementCounter = () => {
-        this.setState({
-            count: this.state.count+1
+        this.setState( previous => {
+            return {
+                count: previous.count + 1
+            }
         })
     }
-
   render() {
     return (
       <div>
