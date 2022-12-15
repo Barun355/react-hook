@@ -1,5 +1,6 @@
 import './App.css';
-import ContextHook from './components/ContextHook';
+import Reducer from './Reducer';
+// import ContextHook from './components/ContextHook';
 // import DataFetching from './components/DataFetching';
 // import IntervalClassCounter from './components/IntervalClassCounter';
 // import IntervalHookCounter from './components/IntervalHookCounter';
@@ -32,7 +33,8 @@ function App() {
       {/* <IntervalClassCounter />
       <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
-      <ContextHook />
+      {/* <ContextHook /> */}
+      <Reducer />
     </div>
   );
 }
