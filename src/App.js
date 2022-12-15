@@ -1,5 +1,6 @@
 import './App.css';
-import DataFetching from './components/DataFetching';
+import ContextHook from './components/ContextHook';
+// import DataFetching from './components/DataFetching';
 // import IntervalClassCounter from './components/IntervalClassCounter';
 // import IntervalHookCounter from './components/IntervalHookCounter';
 // import ClassMouse from './components/ClassMouse';
@@ -30,7 +31,8 @@ function App() {
       {/* <MouseContainer /> */}
       {/* <IntervalClassCounter />
       <IntervalHookCounter /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <ContextHook />
     </div>
   );
 }
