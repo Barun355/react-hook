@@ -1,7 +1,9 @@
 import './App.css';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
 // import ClassMouse from './components/ClassMouse';
 // import HookMouse from './components/HookMouse';
-import MouseContainer from './components/MouseContainer';
+// import MouseContainer from './components/MouseContainer';
 // import ClassCounterOne from './components/ClassCounterOne';
 // import HookUseEffectCounter from './components/HookUseEffectCounter';
 // import HookEffectCounter from './components/HookEffectCounter';
@@ -24,7 +26,9 @@ function App() {
       {/* <HookUseEffectCounter /> */}
       {/* <ClassMouse /> */}
       {/* <HookMouse /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      <IntervalClassCounter />
+      <IntervalHookCounter />
     </div>
   );
 }
