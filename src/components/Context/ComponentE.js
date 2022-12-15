@@ -1,10 +1,13 @@
-import React from 'react'
-import CommponentF from './CommponentF'
+import React, { useContext } from 'react'
+import { ChannelContext, UserContext } from '../ContextHook'
+// import CommponentF from './CommponentF'
 
 function ComponentE() {
+  const user = useContext(UserContext)
+  const channel = useContext(ChannelContext)
   return (
     <div>
-      <CommponentF />
+      {user} - {channel}
     </div>
   )
 }
