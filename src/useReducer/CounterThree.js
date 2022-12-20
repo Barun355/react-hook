@@ -21,13 +21,13 @@ function CounterOne() {
     return (
         <>
             <div>
-                <div>Count -> {count}</div>
+                <div>Count -&gt; {count}</div>
                 <button type='button' onClick={() => dispatch('increment')} >Increment</button>
                 <button type='button' onClick={() => dispatch('decrement')} >Decrement</button>
                 <button type='button' onClick={() => dispatch('reset')} >Reset</button>
             </div>
             <div>
-                <div>Count -> {countTow}</div>
+                <div>Count -&gt; {countTow}</div>
                 <button type='button' onClick={() => dispatchTow('increment')} >Increment</button>
                 <button type='button' onClick={() => dispatchTow('decrement')} >Decrement</button>
                 <button type='button' onClick={() => dispatchTow('reset')} >Reset</button>
