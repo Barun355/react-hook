@@ -1,12 +1,14 @@
 import React from 'react'
-import CounterTwo from './useReducer/CounterTwo'
+import CounterThree from './useReducer/CounterThree'
+// import CounterTwo from './useReducer/CounterTwo'
 // import CounterOne from './useReducer/CounterOne'
 
 function Reducer() {
   return (
     <div>
       {/* <CounterOne /> */}
-      <CounterTwo />
+      {/* <CounterTwo /> */}
+      <CounterThree />
     </div>
   )
 }
